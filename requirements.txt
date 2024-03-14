@@ -3,3 +3,5 @@ Pandas
 Numpy
 Matplotlib
 Plotly
+scikit-learn
+flask-cors
