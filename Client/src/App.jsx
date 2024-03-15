@@ -23,7 +23,7 @@ function App() {
       },
     };
     axios
-      .post("http://127.0.0.1:5000/predict_api", sending)
+      .post("http://127.0.0.1:5000/demo/singleData/predict_api", sending)
       .then((response) => {
         console.log(response.data);
       })
